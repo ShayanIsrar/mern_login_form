@@ -25,7 +25,7 @@ const LogIn = () => {
         }
 
         try {
-            const url = 'http://localhost:8080/auth/login';
+            const url = 'mern-login-form-app.vercel.app/auth/login';
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
